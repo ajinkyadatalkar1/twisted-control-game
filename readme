@@ -1,0 +1,16 @@
+1) START_SCREEN is located in display.h and display.cpp file.
+2) The PAUSE and RETRY screens are created and called in the button.cpp file.
+3) Thunder is called inside twisted_control.
+4) Twist control is called inside player.cpp and does not have a timer.
+5) parallax_animation is called inside the player.cpp file.
+6) Use animation inside to reduce lag.
+7) Pause,Resume,Retry buttons are present in the enemy.cpp file.
+
+
+
+
+
+
+NOTE:-(QT)
+1) Adding and removing items from the scene causes lag as there's a lot of preprocessing that needs to be done while adding.
+2) Timer should be created and destroyed inside the function only.. it should not be created outside the function or in the header. Timer should be deleted at the end of the function.
