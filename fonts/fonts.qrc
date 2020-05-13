@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/fonts">
+        <file>game.ttf</file>
+    </qresource>
+</RCC>

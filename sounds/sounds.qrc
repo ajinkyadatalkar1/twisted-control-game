@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>thunder.mp3</file>
+        <file>bg_music.mp3</file>
+    </qresource>
+</RCC>

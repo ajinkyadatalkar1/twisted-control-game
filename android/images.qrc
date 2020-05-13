@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>rock.png</file>
+        <file>lightning.png</file>
+        <file>rocket.png</file>
+        <file>background.jpg</file>
+        <file>parallax.png</file>
+        <file>lightning2.png</file>
+        <file>lightning3.png</file>
+        <file>lightning.gif</file>
+        <file>slow.png</file>
+        <file>fire.gif</file>
+        <file>rocket.gif</file>
+        <file>engine_1.png</file>
+        <file>engine_3.png</file>
+        <file>engine_2.png</file>
+        <file>play_button.png</file>
+        <file>play_background.jpg</file>
+        <file>quit_button.png</file>
+        <file>background.gif</file>
+    </qresource>
+</RCC>
