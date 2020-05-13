@@ -1,4 +1,3 @@
-/*Written by Ajinkya Datalkar*/
 #ifndef ENEMY_H
 #define ENEMY_H
 

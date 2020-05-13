@@ -1,4 +1,3 @@
-/*Written by Ajinkya Datalkar*/
 #include "enemy.h"
 #include "thunder.h"
 #include <QLabel>

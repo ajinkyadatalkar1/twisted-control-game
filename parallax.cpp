@@ -1,4 +1,3 @@
-/*Written by Ajinkya Datalkar*/
 #include "parallax.h"
 #include "common_variables.h"
 

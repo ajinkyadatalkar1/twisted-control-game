@@ -1,4 +1,3 @@
-/*Written by Ajinkya Datalkar*/
 #ifndef FIRST_SCREEN_H
 #define FIRST_SCREEN_H
 

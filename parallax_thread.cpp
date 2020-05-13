@@ -1,4 +1,3 @@
-/*Written by Ajinkya Datalkar*/
 #include "parallax_thread.h"
 #include <QLabel>
 #include <QMovie>

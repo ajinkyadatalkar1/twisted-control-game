@@ -1,4 +1,3 @@
-/*Written by Ajinkya Datalkar*/
 #ifndef ROCKET_H
 #define ROCKET_H
 

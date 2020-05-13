@@ -1,4 +1,3 @@
-/*Written by Ajinkya Datalkar*/
 #include "font.h"
 
 

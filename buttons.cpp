@@ -1,4 +1,3 @@
-/*Written by Ajinkya Datalkar*/
 #include "buttons.h"
 #include "player.h"
 #include "common_variables.h"

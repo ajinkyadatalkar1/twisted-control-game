@@ -1,4 +1,3 @@
-/*Written by Ajinkya Datalkar*/
 #include "display.h"
 #include "common_variables.h"
 #include <QLabel>

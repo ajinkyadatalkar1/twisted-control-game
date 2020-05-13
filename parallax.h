@@ -1,4 +1,3 @@
-/*Written by Ajinkya Datalkar*/
 #ifndef PARALLAX_H
 #define PARALLAX_H
 
