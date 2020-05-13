@@ -10,7 +10,7 @@
 
 
 
-
 NOTE:-(QT)
 1) Adding and removing items from the scene causes lag as there's a lot of preprocessing that needs to be done while adding.
 2) Timer should be created and destroyed inside the function only.. it should not be created outside the function or in the header. Timer should be deleted at the end of the function.
+The app is currently designed for sceens with resolution 1920x1080.
