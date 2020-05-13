@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /*Written by Ajinkya Datalkar*/
+=======
+>>>>>>> 3923d1ae76dffce459d9593948cf8405efe9892c
 #ifndef ROCKET_H
 #define ROCKET_H
 
