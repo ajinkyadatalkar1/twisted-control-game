@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*Written by Ajinkya Datalkar*/
 #include "player.h"
 #include "enemy.h"
@@ -16,7 +15,6 @@
 void player::rocket(QGraphicsScene *scene_item, QGraphicsView *view_item,QGraphicsScene *pause_screen,QGraphicsScene *retry_screen)
 {
     parallax_thread *b = new parallax_thread(scene_item,view_item);
-=======
 #include "player.h"
 #include "enemy.h"
 #include "twisted_control.h"
@@ -30,33 +28,27 @@ void player::rocket(QGraphicsScene *scene_item, QGraphicsView *view_item,QGraphi
 
     enemy *start_game = new enemy(view_item,scene_item,pause_screen,retry_screen);
     QTimer *enemy_timer1 = new QTimer();
->>>>>>> 3923d1ae76dffce459d9593948cf8405efe9892c
 
     QLabel *rocket_label = new QLabel;
     rocket_label->setAttribute(Qt::WA_TranslucentBackground, true);
     QMovie *rocket_movie = new QMovie;
     rocket_movie->setFileName(":/images/rocket.gif");
-<<<<<<< HEAD
     rocket_movie->setCacheMode(QMovie::CacheAll);
     rocket_movie->start();
     rocket_label->setMovie(rocket_movie);
     QGraphicsProxyWidget *rocket_widget = scene_item->addWidget(rocket_label);
     rocket_widget->setPos(DISPLAY_WIDTH/2 - QPixmap::fromImage(QImage(":/images/rocket.png")).width()/2,DISPLAY_HEIGHT - 700);
-=======
     rocket_movie->start();
     rocket_label->setMovie(rocket_movie);
     QGraphicsProxyWidget *rocket_widget = scene_item->addWidget(rocket_label);
     rocket_widget->setPos(view_item->width()/2 - QPixmap::fromImage(QImage(":/images/rocket.png")).width()/2,view_item->height() - 700);
->>>>>>> 3923d1ae76dffce459d9593948cf8405efe9892c
     rocket_widget->setFlag(QGraphicsItem::ItemIsFocusable);
     rocket_widget->setFocus();
     rocket_widget->setZValue(-1);
     scene_item->addItem(rocket_widget);
 
 
-<<<<<<< HEAD
     threads *t = new threads(view_item,scene_item,retry_screen,pause_screen,rocket_widget);
-=======
     twisted_control *add_twist = new twisted_control();
     add_twist->twist(view_item,scene_item,rocket_widget);
 
@@ -79,5 +71,4 @@ void player::rocket(QGraphicsScene *scene_item, QGraphicsView *view_item,QGraphi
 
 
     start_game->one_time_params(enemy_timer1,view_item,scene_item,pause_screen,retry_screen);
->>>>>>> 3923d1ae76dffce459d9593948cf8405efe9892c
 }
